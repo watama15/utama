@@ -124,7 +124,7 @@ Nomor akan di banned!.
  'caption':bottime, 
  'footer':cap, 
  'buttons':[ 
- {'buttonId':'.ref','buttonText':{'displayText':'❍REFERAL'},'type':1}, 
+ {'buttonId':'.list','buttonText':{'displayText':'❍MENU'},'type':1}, 
  {'buttonId':'.donasi','buttonText':{'displayText':'❍DONASI'},'type':1} 
  ], 
  'headerType':6} 
