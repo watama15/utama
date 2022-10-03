@@ -73,7 +73,7 @@ handler.tags = ['main']
 handler.command = /^menu|help$/i
 
 handler.limit = true
-handler.register = true
+handler.register = false
 
 export default handler
 
