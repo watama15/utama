@@ -626,7 +626,7 @@ function _0x1766() {
      throw e 
    } 
  } 
- handler.command = /^(menulist|\?)$/i 
+ handler.command = /^(menu|listmenu\?)$/i 
   
  handler.register = false
  handler.limit = true
