@@ -628,7 +628,7 @@ function _0x1766() {
  } 
  handler.command = /^(menulist|\?)$/i 
   
- handler.register = true
+ handler.register = false
  handler.limit = true
  handler.exp = 3 
   
