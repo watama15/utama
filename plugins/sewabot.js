@@ -83,8 +83,8 @@ Create (Rpg)
 • +5 Join Limit ticket
 `
 await conn.sendButton(m.chat, bottime, caption, pp, [
-                ['OWNER', `${usedPrefix}levelup`],
-                ['BUY JOIN LIMIT', `${usedPrefix}buy`]
+                ['OWNER', `${usedPrefix}owner`],
+                ['MENU', `${usedPrefix}menu`]
             ], m, {
             fileLength: fsizedoc,
             seconds: fsizedoc,
