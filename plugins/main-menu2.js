@@ -36,7 +36,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
       }
      }
 let caption = `${htki} *MENU* ${htka}
-Hay ${name} ${ucpn}, Saya merupakan bot WhatsApp yang di kembangkan oleh *FangzXD* Saya bisa membantumu kapan pun dan di manapun kamu berada, Dan saya juga bisa membuat kamu menghilangkan rasa gabut..., Oh iya. kamu dapat nomor saya dari mana? Sebelum menggunakan bot ini, kamu harus tau rules nya yah agar tidak ter banned oleh bot. Terima kasih sudah menggunakan Fangz BOT & Bot ini terjaga privasi nya!
+Hay ${name} ${ucpn}, Saya merupakan bot WhatsApp yang di kembangkan oleh *KoncitOfc* Saya bisa membantumu kapan pun dan di manapun kamu berada, Dan saya juga bisa membuat kamu menghilangkan rasa gabut..., Oh iya. kamu dapat nomor saya dari mana? Sebelum menggunakan bot ini, kamu harus tau rules nya yah agar tidak ter banned oleh bot. Terima kasih sudah menggunakan Fangz BOT & Bot ini terjaga privasi nya!
 
 NOTE: 
 • Jangan menelepon Bot/Don't call bot
@@ -49,8 +49,8 @@ NOTE:
 *🏷️ Nama:* ${registered ? '(' + name + ') ' : ''} 
 *📨 Terdaftar:* ${registered ? '✅ (' + new Date(regTime).toLocaleString() + ')' : '❌'} ${lastclaim > 0 ? '\n*⏱️Terakhir Claim* ' + new Date(lastclaim).toLocaleString() : ''}\n\n NOTE: Jika ada bug, mohon untuk menunggu sekitar ±20 menit`
 await conn.sendButton(m.chat, bottime, caption, pp, [
-                ['LIST MENU', `${usedPrefix}listmenu`],
-                ['CARI TEMAN', `${usedPrefix}start`]
+                ['LIST MENU', `${usedPrefix}menulist`],
+                ['SEWA BOT🤖', `${usedPrefix}sewa`]
             ], m, {
             fileLength: fsizedoc,
             seconds: fsizedoc,
