@@ -16,6 +16,9 @@ import { tiktokdl, tiktokdlv2, tiktokdlv3 } from '@bochilteam/scraper'
  } 
  handler.help = ['tiktok', 'tiktok', 'tiktokdl'].map(v => v + ' <url>') 
  handler.tags = ['downloader'] 
- handler.command = /^(tik(tok)?(tok)?(dl)?)$/i 
-  
+ handler.command = /^(tik(tok)?(tok)?(dl)?)$/i
+
+ handler.premium = true
+ handler.register = true
+
  export default handler
