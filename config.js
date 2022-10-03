@@ -32,7 +32,7 @@ global.wktuwib = `${global.wibh} H ${global.wibm} M ${global.wibs} S`
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
 global.sig = 'https://instagram.com/k0nc1_store' //Instagram mu
 global.sgh = 'https://github.com/koncit' //Github mu
-global.swb = 'https://github.com/koncit'
+global.swb = 'https://koncit.github.io/index'
 global.sfb = 'https://www.facebook.com/'
 global.syt = 'https://youtube.com/channel/UClfUAjgtQ19vGnUbkQxTuAg'
 global.syt = 'https://youtube.com/channel/UClfUAjgtQ19vGnUbkQxTuAg' //YT Mu
