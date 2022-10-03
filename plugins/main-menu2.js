@@ -67,7 +67,7 @@ await conn.sendButton(m.chat, bottime, caption, pp, [
   })
 }
 
-handler.help = ['menu', 'help']
+handler.help = ['listmenu', 'helpp']
 handler.tags = ['main']
 
 handler.command = /^menu|help$/i
