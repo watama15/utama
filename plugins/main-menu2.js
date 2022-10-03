@@ -67,10 +67,10 @@ await conn.sendButton(m.chat, bottime, caption, pp, [
   })
 }
 
-handler.help = ['offdulu', 'helpp']
+handler.help = ['not', 'helpp']
 handler.tags = ['main']
 
-handler.command = /^menu|help$/i
+handler.command = /^offdulu|notfound$/i
 
 handler.limit = true
 handler.register = false
