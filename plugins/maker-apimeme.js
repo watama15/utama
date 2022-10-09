@@ -1013,4 +1013,6 @@ conn.sendButton(m.chat, `Random *${command}*`, author, res, [['🔄 Next 🔄', 
 }
 handler.command = /^(makerapimeme)$/i
 
+handler.premium = true
+
 export default handler
