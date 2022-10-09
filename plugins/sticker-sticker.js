@@ -34,6 +34,8 @@ handler.tags = ['sticker']
 handler.alias = ['stiker', 'sticker', 'sgif', 'stikergif', 'stickergif']
 handler.command = /^s(tic?ker)?(gif)?$/i
 
+handler.group = true
+
 export default handler
 
 const isUrl = (text) => text.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)(jpe?g|gif|png)/, 'gi'))
