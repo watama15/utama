@@ -10,7 +10,7 @@ let imgr = flaaa.getRandom()
 let totalf = Object.values(global.plugins).filter(
     (v) => v.help && v.tags
   ).length;
- await conn.sendButton(m.chat, `𝙏𝙃𝘼𝙉𝙆𝙎 𝙏𝙊\n\n◐ Fokus ID\n◐FangzXD\n◐The.sad.boy01\n◐Kanna\n◐Nurutomo\n◐Bochilgaming\n◐Amirul\n◐Ilham\n◐Rasel\n◐Pemakai bot ini\n◐I love you\n\n© https://go.paid4link.com/7ENnHAOL
+ await conn.sendButton(m.chat, `𝙏𝙃𝘼𝙉𝙆𝙎 𝙏𝙊\n\n◐ KoncitOfc\n◐Pemakai bot ini\n◐I love you\n\n© https://koncit.github.io/index
  `,dmenuf + '\n\n' + cmenua, `${imgr + 'Thanks To'}`, [['THNKS KNCT','Ok']], m, {
 contextInfo: { externalAdReply :{
                         mediaUrl: '',
