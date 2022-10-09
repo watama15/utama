@@ -12,16 +12,10 @@ let text = `*SYARAT & KETENTUAN*
 6. Jangan di per jual belikan
 • Jika ada eror di sc hub wa.me/6281364444859
 
+*Mau Nyumri SCeh Ya Bang? :v\nBoleh kok, nih ...\nhttps://koncit.github.io*
+
 --------Thanks to ✨---------
-Allah SWT
-My parents
-All Friends
-All Contributors
-All Creator Bot
-Adiwajshing
-Nurutomo
-BochilGaming
-FangzXd`
+Allah STW`
 const templateButtons = [
     {index: 1, urlButton: {displayText: 'Script di sini', url: 'https://go.paid4link.com/7ENnHAOL'}},
 ]
