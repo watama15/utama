@@ -17,5 +17,6 @@ handler.tags = ['tools']
 handler.command = /^(smeme)$/i
 
 handler.limit = true
+handler.group = true
 
 export default handler
