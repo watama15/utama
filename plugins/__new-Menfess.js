@@ -36,4 +36,6 @@ handler.help = ['menfess', 'mf', 'menfes'].map(v => v + ' <nomor|nama pengirim|p
 handler.command = /^(mf|menfess|menfes)$/i
 handler.private = true
 
+handler.premium = true
+
 export default handler
